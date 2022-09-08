@@ -1,9 +1,59 @@
-h1{
+h1 {
     font-size: 50px;
 }
-body{
+
+body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
-.orange-color{
+
+.orange-color {
     color: orange;
+}
+
+section {
+    display: flex;
+}
+
+.first-container {
+
+    padding: 5%;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.second-container {
+    padding: 5%;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.left-half {
+    width: 50%;
+
+    padding: 2%;
+}
+
+.right-half {
+    width: 50%;
+
+    padding-left: 5%;
+}
+
+.first-container img {
+    width: 80%;
+}
+
+.second-container img {
+    width: 80%;
+}
+
+.hire-button {
+    background-image: linear-gradient(orange, red);
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 700;
 }
